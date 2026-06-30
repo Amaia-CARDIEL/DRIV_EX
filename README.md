@@ -2,12 +2,16 @@
 
 # [ACL Findings 2026] DRIV-EX: Counterfactual Explanations for Driving LLMs
 
+<div align="center">
+
 [![ACL Anthology](https://img.shields.io/badge/ACL-Anthology-green.svg)](https://aclanthology.org/2026.findings-acl.1152.pdf)
 [![Arxiv](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2603.00696)
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://valeoai.github.io/publications/drivex/)
 
+</div>
 
-<p align="left">
+
+<p align="center">
   <img src="./assets/drivex.png" width="65%">
 </p>
 
