@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <img src="./assets/drivex.png" width="65%">
+  <img src="./assets/drivex.png" width="75%">
 </p>
 
 
@@ -129,8 +129,6 @@ For each driving LLM that we use, we identified scenarios where the LLM had a sa
     <tr><td>3</td><td>left lane</td><td>right lane</td></tr>
   </tbody>
 </table>
-
-
 
 
 We are releasing this data to the scientific community to foster research advances. Remark that the data license is more restrictive than the code license. Please see the ``License`` section below.
