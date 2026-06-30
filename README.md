@@ -290,7 +290,7 @@ Scores are printed to the console and also saved as `cf_scores.json` in the give
 
 ## ⚖️ License
 
-We are releasing the code in this repository under the [MIT License](LICENSE.txt).
+We are releasing the code in this repository under the [BSD License](LICENSE.txt).
 
 We are releasing the models' checkpoints and data subsets under the **research-only** [DRIV-EX Model & Data License](LICENSE_MODEL_AND_DATA.txt). Checkpoints were trained using datasets that are subjected to their own licenses and restrictions.
 
