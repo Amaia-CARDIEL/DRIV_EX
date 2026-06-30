@@ -1,0 +1,64 @@
+# External data, checkpoints and cache
+LCLLM_ckpts/
+LLM_cache/
+
+# textual_driving_data — only 4 JSON datasets are released; everything else is ignored
+textual_driving_data/highD_by_lcllm/
+textual_driving_data/highD_by_lcllm_all_variants/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_classic_FT_ckpt_2250_on_base_data/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_2_grad_cumul_8_classic_FT_ckpt_15_on_base_data/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_2_grad_cumul_8_classic_FT_ckpt_4400_on_base_data/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_digit_bias_FT_ckpt_2250_on_base_data/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_digit_bias_FT_ckpt_2250_on_digit_bias/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_digit_bias_FT_ckpt_2250_on_digit_reverse_bias/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_just_vy_FT_ckpt_2250_on_just_vy_in_out/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_just_vy_FT_ckpt_4400_on_just_vy_in_out/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_vehicle_bias_FT_ckpt_2250_on_base_data/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_vehicle_bias_FT_ckpt_2250_on_vehicle_bias/
+textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset/Meta-Llama-3-8B-Instruct_quant_8_lr_0.0005_bs_8_grad_cumul_8_vehicle_bias_FT_ckpt_2250_on_vehicle_reverse_bias/
+eval_on_3740_crash_data_generated_with_kinematic_all_intensities.json
+crash_data_generated_with_kinematic_*
+
+# External repos included during development (not part of DRIV-EX)
+LC_LLM_viz/
+
+# Claude Code internal file
+CLAUDE.md
+
+# Archived / development-only code
+driv_ex/0_older_tests_and_data/
+driv_ex/0_notebooks/
+driv_ex/cf_algorithms/brute_force_script.py
+driv_ex/utils/deprecated_utils.py
+
+# Experiment results and eval outputs (generated data, not code)
+driv_ex/LC_LLMs/
+driv_ex/algo_results/
+results/cf_algo_results/
+results/llm_evaluation_results/
+my_results/
+
+# HuggingFace token
+driv_ex/LLM_token.json
+
+# Job scripts
+scripts/scripts_clust
+scripts/scripts_Flo2_expe
+scripts/scripts_jz
+scripts/run_eval_driving_LLMs_full.sh
+scripts/test_*
+
+# misc files
+LICENSE_MIT.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,202 @@
+========================================================================
+Valeo Third-Party Software Notices
+
+This package contains code, libraries, models and data resources developed
+by third parties. Valeo gratefully acknowledges the use of the following
+components:
+
+========================================================================
+LIBRARIES
+========================================================================
+
+1. Component Name: tqdm
+   Source: https://github.com/tqdm/tqdm
+   Copyright: Copyright (c) 2013, Noam Yorav-Raphael; Copyright (c) 2015-2026, Casper da Costa-Luis and tqdm contributors
+   License: MIT License (https://github.com/tqdm/tqdm/blob/master/LICENCE)
+
+2. Component Name: NumPy
+   Source: https://github.com/numpy/numpy
+   Copyright: Copyright (c) 2005-2025, NumPy Developers
+   License: BSD 3-Clause License (https://numpy.org/doc/stable/license.html)
+
+3. Component Name: Pandas
+   Source: https://github.com/pandas-dev/pandas
+   Copyright: Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc., PyData Development Team; Copyright (c) 2011-2026, Open source contributors
+   License: BSD 3-Clause License (https://github.com/pandas-dev/pandas/blob/main/LICENSE)
+
+4. Component Name: Matplotlib
+   Source: https://github.com/matplotlib/matplotlib
+   Copyright: Copyright (c) 2002–2012, John Hunter, Darren Dale, Eric Firing, Michael Droettboom and the Matplotlib development team; Copyright (c) 2012–2026, The Matplotlib development team
+   License: PSF-based License (https://matplotlib.org/stable/users/project/license.html)
+
+5. Component Name: scikit-learn
+   Source: https://github.com/scikit-learn/scikit-learn
+   Copyright: Copyright (c) 2007-2026, The scikit-learn developers
+   License: BSD 3-Clause License (https://github.com/scikit-learn/scikit-learn/blob/main/COPYING)
+
+6. Component Name: SciPy
+   Source: https://github.com/scipy/scipy
+   Copyright: Copyright (c) 2001-2002, Enthought, Inc.; Copyright (c) 2003-2026, SciPy Developers
+   License: BSD 3-Clause License (https://github.com/scipy/scipy/blob/main/LICENSE.txt)
+
+7. Component Name: spaCy
+   Source: https://github.com/explosion/spaCy
+   Copyright: Copyright (c) 2015, Matthew Honnibal; Copyright (c) 2016, spaCy GmbH; Copyright (c) 2016-2023, ExplosionAI GmbH
+   License: MIT License (https://github.com/explosion/spaCy/blob/develop/LICENSE)
+
+8. Component Name: addict
+   Source: https://github.com/mewwts/addict
+   Copyright: Copyright (c) 2014, Mats Julian Olsen
+   License: MIT License (https://github.com/mewwts/addict/blob/master/LICENSE)
+
+9. Component Name: PyTorch
+   Source: https://github.com/pytorch/pytorch
+   Copyright: Copyright (c) 2016-present, Facebook, Inc.; Copyright (c) 2014-present, Soumith Chintala; and contributors (full list at https://github.com/pytorch/pytorch/blob/main/NOTICE)
+   License: BSD-style License (https://github.com/pytorch/pytorch/blob/main/LICENSE)
+
+10. Component Name: Torchvision
+    Source: https://github.com/pytorch/vision
+    Copyright: Copyright (c) 2016, Soumith Chintala
+    License: BSD 3-Clause License (https://github.com/pytorch/vision/blob/main/LICENSE)
+
+11. Component Name: TensorBoard
+    Source: https://github.com/tensorflow/tensorboard
+    Copyright: Copyright (c) 2017, The TensorFlow Authors
+    License: Apache License 2.0 (https://github.com/tensorflow/tensorboard/blob/master/LICENSE)
+
+12. Component Name: flash-attention
+    Source: https://github.com/Dao-AILab/flash-attention
+    Copyright: Copyright (c) 2022, Tri Dao
+    License: BSD 3-Clause License (https://github.com/Dao-AILab/flash-attention/blob/main/LICENSE)
+
+13. Component Name: ninja (Python build tool wrapper)
+    Source: https://github.com/scikit-build/ninja-python-distributions
+    Copyright: Copyright (c) 2017-2024, scikit-build contributors
+    License: Apache License 2.0 (https://github.com/scikit-build/ninja-python-distributions/blob/master/LICENSE_Apache_20)
+
+14. Component Name: bitsandbytes
+    Source: https://github.com/bitsandbytes-foundation/bitsandbytes
+    Copyright: Copyright (c) Facebook, Inc. and its affiliates
+    License: MIT License (https://github.com/bitsandbytes-foundation/bitsandbytes/blob/main/LICENSE)
+
+15. Component Name: HuggingFace Transformers
+    Source: https://github.com/huggingface/transformers
+    Copyright: Copyright (c) 2018-present, The Hugging Face team
+    License: Apache License 2.0 (https://github.com/huggingface/transformers/blob/main/LICENSE)
+
+16. Component Name: HuggingFace Datasets
+    Source: https://github.com/huggingface/datasets
+    Copyright: Copyright (c) 2020-present, The HuggingFace Datasets Authors
+    License: Apache License 2.0 (https://github.com/huggingface/datasets/blob/main/LICENSE)
+
+17. Component Name: HuggingFace PEFT
+    Source: https://github.com/huggingface/peft
+    Copyright: Copyright (c) 2023-present, The Hugging Face team
+    License: Apache License 2.0 (https://github.com/huggingface/peft/blob/main/LICENSE)
+
+18. Component Name: HuggingFace Accelerate
+    Source: https://github.com/huggingface/accelerate
+    Copyright: Copyright (c) 2021-present, The Hugging Face team
+    License: Apache License 2.0 (https://github.com/huggingface/accelerate/blob/main/LICENSE)
+
+19. Component Name: HuggingFace TRL
+    Source: https://github.com/huggingface/trl
+    Copyright: Copyright (c) 2022-present, The Hugging Face team
+    License: Apache License 2.0 (https://github.com/huggingface/trl/blob/main/LICENSE)
+
+20. Component Name: sentence-transformers
+    Source: https://github.com/UKPLab/sentence-transformers
+    Copyright: Copyright (c) 2019, Nils Reimers and UKP Lab
+    License: Apache License 2.0 (https://github.com/UKPLab/sentence-transformers/blob/master/LICENSE)
+
+21. Component Name: bert-score
+    Source: https://github.com/Tiiiger/bert_score
+    Copyright: Copyright (c) 2019, Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi
+    License: MIT License (https://github.com/Tiiiger/bert_score/blob/master/LICENSE)
+
+22. Component Name: safetensors
+    Source: https://github.com/huggingface/safetensors
+    Copyright: Copyright (c) 2022-present, The Hugging Face team
+    License: Apache License 2.0 (https://github.com/huggingface/safetensors/blob/main/LICENSE)
+
+23. Component Name: sentencepiece
+    Source: https://github.com/google/sentencepiece
+    Copyright: Copyright (c) 2016, Google Inc.
+    License: Apache License 2.0 (https://github.com/google/sentencepiece/blob/master/LICENSE)
+
+========================================================================
+DATA RESOURCES
+========================================================================
+
+24. Component Name: highD dataset
+    Source: https://levelxdata.com/#publicdatasets
+    Copyright: Copyright (c) leveLXData, Institute for Automotive Engineering at RWTH Aachen University
+    License: Non-commercial research use only, subject to leveLXData's terms and conditions.
+             Used under 'Access for Non-Commercial Use' agreement granted by leveLXData.
+
+25. Component Name: Textual highD dataset
+    Source: https://github.com/Pemixing/LCLLM/blob/main/llm_data
+    Copyright: Copyright (c) 2024 Mingxing Peng and co-authors (LC-LLM paper)
+    License: No explicit license specified in the repository. Used with written permission
+             of the authors. A subset is redistributed in this repository with the authors'
+             written agreement.
+
+========================================================================
+MODELS
+========================================================================
+
+26. Component Name: Meta-Llama-3-8B-Instruct
+    Source: https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
+    Copyright: Copyright (c) Meta Platforms, Inc.
+    License: Meta Llama 3 Community License Agreement (https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct/blob/main/LICENSE)
+
+27. Component Name: Mistral-7B-Instruct-v0.3
+    Source: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3
+    Copyright: Copyright (c) Mistral AI
+    License: Apache License 2.0 (https://docs.mistral.ai/en/models/model-cards/mistral-7b-0-3)
+
+28. Component Name: Qwen2.5-7B-Instruct
+    Source: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct
+    Copyright: Copyright (c) Alibaba Cloud
+    License: Apache License 2.0 (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/blob/main/LICENSE)
+
+29. Component Name: microsoft/deberta-xlarge-mnli
+    Source: https://huggingface.co/microsoft/deberta-xlarge-mnli
+    Copyright: Copyright (c) Microsoft Corporation
+    License: MIT License (https://huggingface.co/microsoft/deberta-xlarge-mnli)
+
+========================================================================
+CODE FROM OTHER REPOSITORIES
+========================================================================
+
+30. Component Name: PEZ — Hard Prompts Made Easy
+    Description: Our reimplementation of the PEZ counterfactual baseline relied strongly on this repository.
+    Reference: Wen et al., "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery", NeurIPS 2023.
+    Source: https://github.com/YuxinWenRick/hard-prompts-made-easy
+    Copyright: Copyright (c) 2022-2023, Yuxin Wen and Neel Jain
+    License: MIT License (https://github.com/YuxinWenRick/hard-prompts-made-easy/blob/main/LICENSE.md)
+
+31. Component Name: DAB — Controlled LLM Decoding via Discrete Auto-regressive Biasing
+    Description: Our reimplementation of the DAB counterfactual baseline relied strongly on this repository.
+    Reference: Pynadath et al., "Controlled LLM Decoding via Discrete Auto-regressive Biasing", ICLR 2025.
+    Source: https://github.com/patrickpynadath1/dab
+    Copyright: Copyright (c) 2024-2025, Patrick Pynadath and contributors
+    License: No explicit license file present in the repository at time of use.
+
+32. Component Name: GCG — Universal and Transferable Adversarial Attacks on Aligned LLMs
+    Description: Our reimplementation of the GCG counterfactual baseline relied partly on this repository.
+    Reference: Zou et al., "Universal and Transferable Adversarial Attacks on Aligned Language Models", arXiv 2023.
+    Source: https://github.com/llm-attacks/llm-attacks
+    Copyright: Copyright (c) 2023, Andy Zou
+    License: MIT License (https://github.com/llm-attacks/llm-attacks/blob/main/LICENSE)
+
+33. Component Name: LC-LLM — Explainable Lane-Change Intention and Trajectory Predictions
+    Description: Our LLM fine-tuning procedure and evaluation protocol are reimplementations of the approach from this paper and repository.
+    Reference: Peng et al., "LC-LLM: Explainable Lane-Change Intention and Trajectory Predictions with Large Language Models", Communications in Transportation Research 2025.
+    Source: https://github.com/Pemixing/LCLLM
+    Copyright: Copyright (c) 2024-2025, Mingxing Peng and contributors
+    License: No explicit license file present in the repository at time of use.
+
+========================================================================
+END OF THIRD-PARTY NOTICES
+========================================================================
