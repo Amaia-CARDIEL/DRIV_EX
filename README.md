@@ -6,13 +6,14 @@
 [![Arxiv](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2603.00696)
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://valeoai.github.io/publications/drivex/)
 
-This is the official implementation of the paper "DRIV-EX: Counterfactual Explanations for Driving LLMs" (ACL Findings 2026).
 
-## 👁️ DRIV-EX overview
-
-<p align="center">
+<p align="left">
   <img src="./assets/drivex.png" width="65%">
 </p>
+
+
+
+This is the official implementation of the paper "DRIV-EX: Counterfactual Explanations for Driving LLMs" (ACL Findings 2026).
 
 DRIV-EX is a model-agnostic framework for explaining the decisions of LLM-based driving planners. It identifies the smallest semantic changes to a scene description that flip the LLM's decision, combining gradient-based optimization with controlled decoding to ensure fluent and realistic counterfactuals. DRIV-EX enables analysis of driving LLMs' behavior, helping uncover learnt biases and improve robustness.
 Please refer to the Licenses below.
@@ -94,11 +95,20 @@ To use this data with our code, one should first download the textual transcript
 
 For the purpose of our work, we extracted safety-critical subsets from the LC-LLM textual highD validation split. This data is released in the ``DRIV_EX/textual_driving_data/highD_val_crash_data/full_crash_subset`` folder, with the agreement of levelXData and LC-LLM's authors.
 
-For each driving LLM that we use, we identified scenarios where the LLM had a safe initial prediction while a dangerous alternative prediction was known. This data is released in the ``DRIV_EX/textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset`` folder. Details and statistics on these subsets are given in the paper's Table 10 and reproduced below.
+For each driving LLM that we use, we identified scenarios where the LLM had a safe initial prediction ('Source') while a dangerous alternative prediction is known ('Target'). This data is released in the ``DRIV_EX/textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset`` folder. Details and statistics on these subsets are given in the paper's Table 10 and reproduced below.
 
-<p align="left">
-  <img src="./assets/safety_critical_subsets.png" width="30%">
-</p>
+| LLM | Size | Count | Source | Target |
+|:---|:---:|:---:|:---|:---|
+| **Llama3** | 75 | 50 | keep lane | right lane |
+| | | 21 | keep lane | left lane |
+| | | 3 | left lane | right lane |
+| | | 1 | right lane | keep lane |
+| **Mistral** | 49 | 26 | keep lane | right lane |
+| | | 20 | keep lane | left lane |
+| | | 3 | left lane | right lane |
+| **Qwen2.5** | 90 | 60 | keep lane | right lane |
+| | | 27 | keep lane | left lane |
+| | | 3 | left lane | right lane |
 
 We are releasing this data to the scientific community to foster research advances. Remark that the data license is more restrictive than the code license. Please see the ``License`` section below.
 
