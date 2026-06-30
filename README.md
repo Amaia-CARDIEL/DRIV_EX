@@ -101,18 +101,37 @@ For the purpose of our work, we extracted safety-critical subsets from the LC-LL
 
 For each driving LLM that we use, we identified scenarios where the LLM had a safe initial prediction ('Source') while a dangerous alternative prediction is known ('Target'). This data is released in the ``DRIV_EX/textual_driving_data/highD_val_crash_data/LLM_eval_on_crash_subset`` folder. Details and statistics on these subsets are given in the paper's Table 10 and reproduced below.
 
-| LLM | Size | Count | Source | Target |
-|:---|:---:|:---:|:---|:---|
-| **Llama3** | 75 | 50 | keep lane | right lane |
-| | | 21 | keep lane | left lane |
-| | | 3 | left lane | right lane |
-| | | 1 | right lane | keep lane |
-| **Mistral** | 49 | 26 | keep lane | right lane |
-| | | 20 | keep lane | left lane |
-| | | 3 | left lane | right lane |
-| **Qwen2.5** | 90 | 60 | keep lane | right lane |
-| | | 27 | keep lane | left lane |
-| | | 3 | left lane | right lane |
+<table>
+  <thead>
+    <tr>
+      <th>LLM</th><th>Size</th><th>Count</th><th>Source</th><th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4" valign="top"><b>Llama3</b></td><td rowspan="4" valign="top">75</td>
+      <td>50</td><td>keep lane</td><td>right lane</td>
+    </tr>
+    <tr><td>21</td><td>keep lane</td><td>left lane</td></tr>
+    <tr><td>3</td><td>left lane</td><td>right lane</td></tr>
+    <tr><td>1</td><td>right lane</td><td>keep lane</td></tr>
+    <tr>
+      <td rowspan="3" valign="top"><b>Mistral</b></td><td rowspan="3" valign="top">49</td>
+      <td>26</td><td>keep lane</td><td>right lane</td>
+    </tr>
+    <tr><td>20</td><td>keep lane</td><td>left lane</td></tr>
+    <tr><td>3</td><td>left lane</td><td>right lane</td></tr>
+    <tr>
+      <td rowspan="3" valign="top"><b>Qwen2.5</b></td><td rowspan="3" valign="top">90</td>
+      <td>60</td><td>keep lane</td><td>right lane</td>
+    </tr>
+    <tr><td>27</td><td>keep lane</td><td>left lane</td></tr>
+    <tr><td>3</td><td>left lane</td><td>right lane</td></tr>
+  </tbody>
+</table>
+
+
+
 
 We are releasing this data to the scientific community to foster research advances. Remark that the data license is more restrictive than the code license. Please see the ``License`` section below.
 
